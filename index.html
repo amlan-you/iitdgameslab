@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IIT Delhi Games Lab</title>
+
+  <!-- Lexend Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="top-nav">
+    <div class="nav-inner" style="border-bottom: 2px solid #be9fff">
+
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Brand/Logo.svg" alt="Games Lab Logo" />
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <a href="index.html"><li class="active">Lab</li></a>
+        <!-- <li>About Us</li> -->
+        <!-- <li><li>The Team</li> -->
+        <li><a href="games.html">Games</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li class="mobile-cta">
+          <a href="#contact">Contact Us</a>
+          </li>
+        <!-- <li>Courses</li> -->
+      </ul>
+      <div class="menu-toggle">☰</div>
+
+      <a  href="#contact"><button class="cta-btn">Contact Us</button></a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-lock">
+
+    <div class="hero-video-wrapper">
+      <video id="scrollVideo" muted playsinline preload="auto">
+        <source src="fingers464.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="hero-text">
+      <h1 id="heroTitle">Lab.</h1>
+      <p id="heroSubtitle">
+        Where Play Meets Purpose!
+      </p>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div id="scrollIndicator">
+      <img
+        src="images/arrow-down.webp"
+        alt="Scroll down indicator"
+        class="scroll-gif"
+      />
+    </div>
+
+  </section>
+
+  <!-- MAIN PAGE CONTENT -->
+  <main class="page-content">
+
+    <!-- WHAT WE DO -->
+    <section class="section-block">
+      <h2>What We Do</h2>
+
+      <div class="cards-grid">
+
+        <div class="info-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/whatWeDo/research.svg" alt="Research" />
+          <h3>Research</h3>
+          <p>Pioneering new frontiers in interactive entertainment and player experience</p>
+        </div>
+
+        <div class="info-card" style="border-bottom: 2px solid #d99ac5">
+          <img src="images/whatWeDo/design.svg" alt="Design" />
+          <h3>Design</h3>
+          <p>Crafting engaging and meaningful gameplay through user-centred principles</p>
+        </div>
+
+        <div class="info-card" style="border-bottom: 2px solid #84B082">
+          <img src="images/whatWeDo/dev.svg" alt="Development" />
+          <h3>Development</h3>
+          <p>Building innovative games and prototypes using cutting-edge technology</p>
+        </div>
+
+        <div class="info-card" style="border-bottom: 2px solid #14BDEB">
+          <img src="images/whatWeDo/impact.svg" alt="Impact" />
+          <h3>Impact</h3>
+          <p>Applying game principles to solve real-world problems and create change</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- OUR GAMES -->
+    <section id="games" class="portfolio-section">
+      <h2>Our Games</h2>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/games/jungleJungle.jpg" alt="Game 1" />
+          <p>Jungle Jungle</p>
+        </div>
+
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/games/koNoMercy.jpg" alt="Game 2" />
+          <p>K.O: No Mercy</p>
+        </div>
+
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/games/whoInvitedThem.jpg" alt="Game 3" />
+          <p>'Who Invited Them'</p>
+        </div>
+      </div>
+
+      <a href="games.html">
+      <div class="outline-btn">
+        Explore More Games <img src="images/icon-arrow.svg" alt="" />
+      </div>
+      </a>
+    </section>
+
+    <!-- OUR RESEARCH -->
+    <section id="research" class="portfolio-section">
+      <h2>Our Research</h2>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/research/research1.jpg" alt="Research 1" />
+          <p>Gamifying Mental Well-Being Assessment: A New Approach for College-Going Students Using the 'Oxford Happiness Questionnaire'</p>
+        </div>
+
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/research/research2.jpg" alt="Research 2" />
+          <p>Understanding The Perception And Process Of Practitioners In Defining And Achieving The Educational Goals Of Children With Intellectual Disabilities In India</p>
+        </div>
+
+        <div class="portfolio-card" style="border-bottom: 2px solid #be9fff">
+          <img src="images/research/research3.jpg" alt="Research 3" />
+          <p>Designing Pachi: A Verbal Language Learning Application for Children with Hearing Impairment in India</p>
+        </div>
+      </div>
+
+      
+      <a href="research.html">
+        <div class="outline-btn">
+          Explore More Research <img src="images/icon-arrow.svg" alt="" />
+        </div>
+        </a>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="team-section">
+      <h2>Meet the Team</h2>
+
+      <div class="team-grid">
+        <a href="https://www.linkedin.com/in/aakash-johry" target="_blank" class="team-link">
+        <div class="team-member" style="border-bottom: 2px solid #be9fff">
+          <div class="avatar">
+            <img src="images/Team/Aakash.jpg" alt="Member" />
+          </div>
+          <h4>Aakash Johry <img src="images/Team/linkedinIcon.png" alt="LinkedIn"></h4>
+          <p>Assistant Professor</p>
+          <span>Specialisation</span>
+        </div>
+      </a>
+        <div class="team-member" style="border-bottom: 2px solid #be9fff">
+          <div class="avatar">
+            <img src="images/Team/Harsh.jpg" alt="Member" />
+          </div>
+          <h4>Harsh</h4>
+          <p>Designation</p>
+          <span>Specialisation</span>
+        </div>
+        <div class="team-member" style="border-bottom: 2px solid #be9fff">
+          <div class="avatar">
+            <img src="images/Team/Juben.jpg" alt="Member" />
+          </div>
+          <h4>Juben</h4>
+          <p>Designation</p>
+          <span>Specialisation</span>
+        </div>
+        <div class="team-member" style="border-bottom: 2px solid #be9fff">
+          <div class="avatar">
+            <img src="images/Team/Krish.jpg" alt="Member" />
+          </div>
+          <h4>Krish</h4>
+          <p>Designation</p>
+          <span>Specialisation</span>
+        </div>
+        <div class="team-member" style="border-bottom: 2px solid #be9fff">
+          <div class="avatar">
+            <img src="images/team1.jpg" alt="Member" />
+          </div>
+          <h4>Name</h4>
+          <p>Designation</p>
+          <span>Specialisation</span>
+        </div>
+        <!-- Repeat 4 more -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+
+      <div class="contact-wrapper">
+        <div class="contact-illustration">
+          <img src="images/contact-hand.png" alt="Illustration" />
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Name*" required />
+          <input type="email" placeholder="Email ID*" required />
+          <textarea placeholder="Write your query here...*" required></textarea>
+
+          <button type="submit" class="full-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <img src="images/logo-white.svg" class="footer-logo" alt="Logo" />
+          <p>
+            IIT Delhi Game Design Lab.<br />
+            Exploring innovation through gaming,<br />
+            immersive media, and storytelling
+          </p>
+
+          <div class="social-icons">
+            <img src="images/icon-fb.svg" alt="Facebook" />
+            <img src="images/icon-insta.svg" alt="Instagram" />
+            <img src="images/icon-linkedin.svg" alt="LinkedIn" />
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Links</h4>
+          <a href="index.html">Lab</a>
+          <a href="games.html">Games</a>
+          <a href="research.html">Research</a>
+          <!-- <a href="#team">The Team</a> -->
+          <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact us</h4>
+          <p>IIT Campus, Hauz Khas,<br />New Delhi, Delhi 110016</p>
+          <p>WhatsApp business +91 9876543210</p>
+          <p>Email info@gamedesign.iitd.ac.in</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 IIT Delhi. All rights reserved.
+        <a href="https://www.linkedin.com/in/amlan-you/">Designed & Developed By: Amlan Mishra</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
